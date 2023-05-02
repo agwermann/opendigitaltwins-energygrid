@@ -6,7 +6,7 @@
     "comment": "Adapted from CIM and https://github.com/smart-data-models/dataModel.EnergyCIM/ data models",
     "contents": [
         {
-            "@type": ["Property","Voltage"],
+            "@type": "Property",
             "name": "nominalVoltage",
             "comment": "The power system resource's base voltage.  Shall be a positive value and not zero.",
             "schema": "float",
